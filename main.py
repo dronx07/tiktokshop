@@ -38,7 +38,7 @@ if st.button("Fetch & Parse"):
             st.error("TikTok did NOT return expected data (likely blocked).")
 
             with st.expander("🔍 Raw response preview (first 2000 chars)"):
-                st.text(response.text[:2000])
+                st.text(response.text)
 
             st.stop()
 
